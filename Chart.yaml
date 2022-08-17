@@ -23,6 +23,6 @@ version: 0.1.0
 # It is recommended to use it with quotes.
 appVersion: "1.16.0"
 dependencies:
-  - name: my-charts/app1
+  - name: my-charts/
     version: 0.1.0
     repository: https://adilson-cruz.github.io/my-charts/
