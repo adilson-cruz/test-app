@@ -16,8 +16,8 @@ spec:
       project: default
       source:
         helm:
-          valueFiles:
-          - values.yaml
+          # valueFiles:
+          # - values.yaml
           values: |-
             {{values}}
         repoURL: https://github.com/bitnami/charts.git
