@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: adilson-example
-  namespace: default
+  namespace: argocd
 spec:
   generators:
   - git:
@@ -17,8 +17,8 @@ spec:
       project: default
       source:
         helm:
-          # valueFiles:
-          # - values.yaml
+          valueFiles:
+          - values.yaml
           values: |-
             {{values}}
         repoURL: https://github.com/bitnami/charts.git
