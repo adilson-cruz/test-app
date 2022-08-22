@@ -1,4 +1,4 @@
-name: "in-cluster"
+name: "adilson-example"
 address: "https://kubernetes.default.svc"
 values: |
   replicaCount: 2
