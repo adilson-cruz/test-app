@@ -23,7 +23,7 @@ spec:
             {{values}}
         repoURL: https://github.com/adilson-cruz/my-charts.git
         targetRevision: HEAD
-        path: "app2"
+        path: "charts/app2"
       destination:
         server: '{{address}}'
         namespace: default  
