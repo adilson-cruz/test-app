@@ -1,4 +1,4 @@
-name: "adilson-example"
+name: "adilson-teste"
 address: "https://kubernetes.default.svc"
 values: |
   replicaCount: 2
