@@ -1,0 +1,9 @@
+# See documentation:
+# https://github.com/meliuz/docs/blob/master/devops/provisioning/infrastructure-compose.md
+
+---
+- hosts: all
+  roles:
+    - name: storage/s3
+      bucket_name: service-teste-app-node
+      bucket_var: S3_BUCKET
